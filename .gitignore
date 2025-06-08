@@ -1,0 +1,48 @@
+# Arduino build files
+*.hex
+*.elf
+*.bin
+*.eep
+*.lst
+*.map
+*.sym
+*.lss
+*.o
+*.a
+*.d
+*.mk
+*.hex.b64
+
+# Arduino IDE files
+.build/
+build/
+**/build/
+
+# Temporary files
+*~
+.DS_Store
+*.swp
+Thumbs.db
+
+# IDE-specific files
+.vscode/
+.idea/
+*.iml
+*.suo
+*.user
+*.sln
+*.vcxproj
+*.vcxproj.filters
+
+# Platform-specific files
+__MACOSX/
+.DS_Store
+Thumbs.db
+
+# Logs and debugging
+*.log
+debug.txt
+profile.txt
+
+# Private/custom configuration
+private_config.h 
